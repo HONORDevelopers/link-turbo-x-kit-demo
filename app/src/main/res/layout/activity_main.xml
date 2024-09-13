@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGetLTVersion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="getKitVersion"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegApp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:layout_marginRight="10dp"
+                android:text=" registerApp "
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnUnRegApp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:layout_marginLeft="10dp"
+                android:text="unregisterApp"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGetLTEnState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="getLinkTurboEnableState"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGetNetSignalLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:text="getNetSignalLevel"
+                android:gravity="center_horizontal"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnGetNetQoe"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="getNetworkQoE"
+                android:gravity="center_horizontal"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGetAvNetInf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="getAvailableNetInterface"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnActNetInf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="activeNetInterface"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBindToNetInfAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bindToNetInterfaceAll"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnBindToNetInfSokt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bindToNetInterfaceSocket"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnNotifyAppInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifyAppInfo"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/TestCase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestCase"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/clear_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Content"
+            android:gravity="center_horizontal"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/RepMsgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#41000000"
+            android:maxEms="18"
+            android:maxLines="100"
+            android:ellipsize="end"
+            android:text="接口调用结果显示：" />
+
+    </LinearLayout>
+
+</ScrollView>

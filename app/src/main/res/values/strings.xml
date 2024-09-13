@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LinkTurboKitTest</string>
+    <string name="notifyAppInfo">notifyAppInfo</string>
+    <string name="revMsg">revMsg</string>
+</resources>
